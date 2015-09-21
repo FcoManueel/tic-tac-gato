@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.css">
+    <link rel="stylesheet" href="tic-tac-gato.css"/>
+    <script src="cat.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 >Tic-Tac-Gato</h1>
+
+        <div class="tic-tac-gato">
+            <div class="board">
+                <div id='square0' class='square' onclick='squareClicked(0)'></div>
+                <div id='square1' class='square' onclick='squareClicked(1)'></div>
+                <div id='square2' class='square' onclick='squareClicked(2)'></div>
+                <br/>
+                <div id='square3' class='square' onclick='squareClicked(3)'></div>
+                <div id='square4' class='square' onclick='squareClicked(4)'></div>
+                <div id='square5' class='square' onclick='squareClicked(5)'></div>
+                <br/>
+                <div id='square6' class='square' onclick='squareClicked(6)'></div>
+                <div id='square7' class='square' onclick='squareClicked(7)'></div>
+                <div id='square8' class='square' onclick='squareClicked(8)'></div>
+                <br/>
+            </div>
+            <div id='end-screen' class='hidden end'>
+                <h3 id='end-msg'>Fin del juego!</h3>
+                <a href='#' class='btn btn-default' onclick='restart()'>Reiniciar</a>
+            </div>
+        </div>
+
+        <div id='pre-start'>
+            <p >Apachurra cualquier cuadro para comenzar</p>
+        </div>
+    </div>
+
+</body>
+</html>
